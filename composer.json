@@ -1,0 +1,33 @@
+{
+    "name": "key-value-json",
+    "description": "Form Field \"Key-Value to JSON\" to Voyager BREAD.",
+    "tags": [
+        "voyager",
+        "FormField"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bnku",
+            "email": "bnku@ya.ru"
+        }
+    ],
+    "require": {
+        "larapack/hooks": "^1.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "KeyValueJson\\": "src/"
+        }
+    },
+    "extra": {
+        "hook": {
+            "providers": [
+                "KeyValueJson\\KeyValueJsonServiceProvider"
+            ],
+            "views": [
+                "resources/views"
+            ]
+        }
+    }
+}
