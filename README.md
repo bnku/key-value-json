@@ -9,6 +9,12 @@ You can use the artisan command below to install this hook
 php artisan hook:install key-value-json
 ```
 
+### Required
+```bash
+"laravel/framework": "5.7.*"
+"tcg/voyager": "^1.1"
+```
+
 ## Demo
 
 In BREAD configuration:
