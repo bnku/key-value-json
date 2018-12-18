@@ -1,3 +1,8 @@
+## A new implementation of this hook is available in the repository:
+https://github.com/bnku/extended-bread-form-fields
+
+*The current repository will not be updated*
+
 # Form Field "Key-Value to JSON" to Voyager BREAD 
 Hook
 
